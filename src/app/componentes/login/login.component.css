@@ -1,0 +1,24 @@
+.form-control{
+    padding-left: 40px;
+    
+
+}
+.mb-3{
+    position: relative;
+}
+.icono{
+    position: absolute;
+    left: 13px;
+    top: 7px;
+}
+button{
+    width: 100%;
+}
+.card{
+    padding:40px;
+   
+}
+h5{
+    font-size: xx-large;
+   
+}

@@ -1,0 +1,30 @@
+.card{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 10px;
+    align-items: center;
+    }
+    form{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    button{
+        width: 100%;
+    }
+    .form-control{
+        padding-left: 40px;
+    }
+    i{
+        position: absolute;
+        top: 11px;
+        left: 13px;
+    }
+    .icono{
+        position: relative;
+    }
+    .placeholder{
+        padding: 15px;
+    }
+    #browsers{
+     padding: 15px;
+    }

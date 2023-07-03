@@ -1,0 +1,47 @@
+<div class="card col-md-4" style="margin:15px auto;" >
+  <div class="card-header bt-info text-center">
+    <h5 style="color: black">Cargar Artículo</h5>
+  </div>
+  <form acion="Cargar" method="get" >
+    <div class="mb-3 mt-3">
+    
+      <input list="browsers" placeholder="Tipo Subsistema " />
+      <datalist id="browsers">
+        <option value="Tipo Subsistema"></option>
+        <option value="Universidad Tecnológica"></option>
+        <option value="universidad Politécnica"></option>
+        <option value="Instituto Tecnológico"></option>
+      </datalist>
+    </div>
+    <div class="mb-3">
+      <div class="icono">
+        <i class="fa-solid fa-newspaper"></i>
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Título del Artículo"
+      />
+    </div>
+   <div class="md-3">
+    <div class="icono">
+      <i class="fa-solid fa-user"></i>
+    </div>
+    <input
+        type="text"
+        class="form-control"
+        placeholder="Autor"
+      />
+   </div>
+    <div class="md-3 mt-3">
+     
+      <textarea name="message" rows="6" cols="53"  placeholder="Breve resumen del artículo"></textarea>
+      </div>
+      <div class="md-3 mt-2">
+        
+        <input type="file" id="myfile" name="myfile">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-dark">Cargar archivo</button>
+  </form>
+</div>
